@@ -11,8 +11,8 @@ inputBtn.addEventListener("click", function() {
 })
 function renderLeads() {
 let listItems = ""
-for (let i = 0; i < myLeads.length; i++) {
- listItems += `
+for (let i = 0; i < myLeads.length; i++) { //use backticks in template strings
+ listItems += ` 
   <li>
    <a target='_blank' href='${myLeads[i]}'> 
      ${myLeads[i]}
